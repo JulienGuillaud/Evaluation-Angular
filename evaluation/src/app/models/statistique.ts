@@ -1,12 +1,12 @@
 export class Statistique {
-   identifiant: string;
+   id: string;
    titre: string;
    valeur: string;
    
    appreciation: Appreciation;
 
-   constructor(identifiant:string, titre:string, valeur:string, appreciation:Appreciation){
-      this.identifiant = identifiant;
+   constructor(id:string, titre:string, valeur:string, appreciation:Appreciation){
+      this.id = id;
       this.titre = titre;
       this.valeur = valeur;
       this.appreciation = appreciation;

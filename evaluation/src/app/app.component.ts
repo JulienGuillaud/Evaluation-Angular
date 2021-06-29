@@ -9,3 +9,4 @@ import { Appreciation, Statistique } from './models/statistique';
 export class AppComponent {
   title = 'evaluation';
 }
+
