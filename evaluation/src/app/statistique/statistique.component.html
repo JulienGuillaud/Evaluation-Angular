@@ -1,3 +1,4 @@
+<!-- Exercice 3 -->
 <div style="width: 200px;height: 150px;background-color: lightgray; text-align: center; padding: 20px; margin: 20px;">
    <h4>titre = {{stat1.titre}}</h4>
    <p>id = {{stat1.identifiant}}</p>
@@ -10,3 +11,13 @@
    <p>valeur = {{stat2.valeur}}</p>
    <p>appreciation = {{stat2.appreciation}}</p>
  </div>
+
+ <!-- Exercice 4 -->
+
+<p *ngFor="let laStat of tabStats">
+   titre = {{laStat.titre}}
+   id = {{laStat.identifiant}}
+   valeur = {{laStat.valeur}}
+   appreciation = {{laStat.appreciation}}
+</p>
+
